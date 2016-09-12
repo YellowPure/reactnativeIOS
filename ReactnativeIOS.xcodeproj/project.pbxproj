@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F56B3C5D20D667738C66E7F /* libPods-ReactnativeIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 023271F8ED2C7C6C70386DED /* libPods-ReactnativeIOS.a */; };
 		E30A3DD01D839ECC00C6A162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E30A3DCF1D839ECC00C6A162 /* main.m */; };
 		E30A3DD31D839ECC00C6A162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E30A3DD21D839ECC00C6A162 /* AppDelegate.m */; };
 		E30A3DD61D839ECC00C6A162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E30A3DD51D839ECC00C6A162 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		E30A3DDE1D839ECC00C6A162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30A3DDC1D839ECC00C6A162 /* LaunchScreen.storyboard */; };
 		E30A3DE91D839ECC00C6A162 /* ReactnativeIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E30A3DE81D839ECC00C6A162 /* ReactnativeIOSTests.m */; };
 		E30A3DF41D839ECC00C6A162 /* ReactnativeIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E30A3DF31D839ECC00C6A162 /* ReactnativeIOSUITests.m */; };
+		E3618CB21D83A1B6002630C2 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3618CB11D83A1B6002630C2 /* ReactView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023271F8ED2C7C6C70386DED /* libPods-ReactnativeIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactnativeIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61A463EFE72CA863479FEA2 /* Pods-ReactnativeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactnativeIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactnativeIOS/Pods-ReactnativeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		BE404F2A5C8EA055961E1577 /* Pods-ReactnativeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactnativeIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactnativeIOS/Pods-ReactnativeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E30A3DCB1D839ECC00C6A162 /* ReactnativeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactnativeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A3DCF1D839ECC00C6A162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E30A3DD11D839ECC00C6A162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		E30A3DEF1D839ECC00C6A162 /* ReactnativeIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactnativeIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A3DF31D839ECC00C6A162 /* ReactnativeIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactnativeIOSUITests.m; sourceTree = "<group>"; };
 		E30A3DF51D839ECC00C6A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3618CB01D83A1B6002630C2 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		E3618CB11D83A1B6002630C2 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F56B3C5D20D667738C66E7F /* libPods-ReactnativeIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EB14AC6F04C3E7DA80A63D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023271F8ED2C7C6C70386DED /* libPods-ReactnativeIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E30A3DC21D839ECC00C6A162 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				E30A3DE71D839ECC00C6A162 /* ReactnativeIOSTests */,
 				E30A3DF21D839ECC00C6A162 /* ReactnativeIOSUITests */,
 				E30A3DCC1D839ECC00C6A162 /* Products */,
+				E32F875113999E9B84151937 /* Pods */,
+				5EB14AC6F04C3E7DA80A63D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +128,8 @@
 				E30A3DDC1D839ECC00C6A162 /* LaunchScreen.storyboard */,
 				E30A3DDF1D839ECC00C6A162 /* Info.plist */,
 				E30A3DCE1D839ECC00C6A162 /* Supporting Files */,
+				E3618CB01D83A1B6002630C2 /* ReactView.h */,
+				E3618CB11D83A1B6002630C2 /* ReactView.m */,
 			);
 			path = ReactnativeIOS;
 			sourceTree = "<group>";
@@ -140,6 +160,15 @@
 			path = ReactnativeIOSUITests;
 			sourceTree = "<group>";
 		};
+		E32F875113999E9B84151937 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE404F2A5C8EA055961E1577 /* Pods-ReactnativeIOS.debug.xcconfig */,
+				A61A463EFE72CA863479FEA2 /* Pods-ReactnativeIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30A3DF81D839ECC00C6A162 /* Build configuration list for PBXNativeTarget "ReactnativeIOS" */;
 			buildPhases = (
+				4A23DB278CE931FFC0B37AF8 /* [CP] Check Pods Manifest.lock */,
 				E30A3DC71D839ECC00C6A162 /* Sources */,
 				E30A3DC81D839ECC00C6A162 /* Frameworks */,
 				E30A3DC91D839ECC00C6A162 /* Resources */,
+				5275B60C14AF324591407F26 /* [CP] Embed Pods Frameworks */,
+				8A194CEA7DDA17E24536A9D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,11 +297,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A23DB278CE931FFC0B37AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5275B60C14AF324591407F26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactnativeIOS/Pods-ReactnativeIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A194CEA7DDA17E24536A9D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactnativeIOS/Pods-ReactnativeIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E30A3DC71D839ECC00C6A162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3618CB21D83A1B6002630C2 /* ReactView.m in Sources */,
 				E30A3DD61D839ECC00C6A162 /* ViewController.m in Sources */,
 				E30A3DD31D839ECC00C6A162 /* AppDelegate.m in Sources */,
 				E30A3DD01D839ECC00C6A162 /* main.m in Sources */,
@@ -411,6 +492,7 @@
 		};
 		E30A3DF91D839ECC00C6A162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE404F2A5C8EA055961E1577 /* Pods-ReactnativeIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactnativeIOS/Info.plist;
@@ -422,6 +504,7 @@
 		};
 		E30A3DFA1D839ECC00C6A162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61A463EFE72CA863479FEA2 /* Pods-ReactnativeIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactnativeIOS/Info.plist;
@@ -496,6 +579,7 @@
 				E30A3DFA1D839ECC00C6A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E30A3DFB1D839ECC00C6A162 /* Build configuration list for PBXNativeTarget "ReactnativeIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +588,7 @@
 				E30A3DFD1D839ECC00C6A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E30A3DFE1D839ECC00C6A162 /* Build configuration list for PBXNativeTarget "ReactnativeIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +597,7 @@
 				E30A3E001D839ECC00C6A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
